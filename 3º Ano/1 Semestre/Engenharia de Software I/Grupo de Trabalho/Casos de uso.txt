@@ -1,0 +1,12 @@
+Casos de uso
+1.Registro de Consultas Anteriores
+2.Anexação de Resultados de Exames
+3.Plano de Tratamento
+4.Controle de Acessos
+5.Relatórios de Desempenho
+6.Alocação de Recursos
+7.Notificações de Confirmação
+9.Cancelamento de Consulta
+10.Atribuição de Sala de Consulta
+11.Alocação de Profissionais de Saúde
+12.Geração de Relatórios de Atendimento

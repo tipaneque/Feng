@@ -1,0 +1,311 @@
+
+1. Interfaces
+
+1.1 Router-Maputo
+
+Router-Maputo#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.151.254  YES manual up                    up 
+FastEthernet0/0.20     172.16.152.254  YES manual up                    up 
+FastEthernet0/0.30     172.16.153.254  YES manual up                    up 
+FastEthernet0/0.40     172.16.154.254  YES manual up                    up 
+FastEthernet0/0.50     172.16.155.254  YES manual up                    up 
+FastEthernet1/0        172.16.150.1    YES manual up                    up 
+Serial2/0              10.2.2.10       YES manual up                    up 
+Serial3/0              10.2.2.1        YES manual up                    up 
+Serial4/0              10.2.2.17       YES manual up                    up 
+Serial5/0              10.2.2.13       YES manual up                    up 
+Serial6/0              unassigned      YES unset  administratively down down
+
+1.2 Router Xai-xai
+Router-Xai-xai#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.81.1     YES manual up                    up 
+FastEthernet0/0.20     172.16.82.1     YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  administratively down down 
+Serial2/0              10.2.2.14       YES manual up                    up 
+Serial3/0              unassigned      YES unset  administratively down down 
+FastEthernet4/0        unassigned      YES unset  administratively down down 
+FastEthernet5/0        unassigned      YES unset  administratively down down
+
+1.3 Router-Inhambane
+Router-Inhambane#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.191.1    YES manual up                    up 
+FastEthernet0/0.20     172.16.192.1    YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  administratively down down 
+Serial2/0              10.2.2.18       YES manual up                    up 
+Serial3/0              unassigned      YES unset  administratively down down 
+FastEthernet4/0        unassigned      YES unset  administratively down down 
+FastEthernet5/0        unassigned      YES unset  administratively down down
+
+
+1.4 Router-Beira
+Router-Beira#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES NVRAM  up                    up 
+FastEthernet0/0.10     172.16.101.254  YES NVRAM  up                    up 
+FastEthernet0/0.20     172.16.102.254  YES NVRAM  up                    up 
+FastEthernet0/0.30     172.16.103.254  YES NVRAM  up                    up 
+FastEthernet0/0.40     172.16.104.254  YES NVRAM  up                    up 
+FastEthernet0/0.50     172.16.105.254  YES NVRAM  up                    up 
+FastEthernet1/0        172.16.100.1    YES manual up                    up 
+Serial2/0              10.2.2.2        YES NVRAM  up                    up 
+Serial3/0              10.2.2.5        YES NVRAM  up                    up 
+Serial4/0              10.2.2.21       YES NVRAM  up                    up 
+Serial5/0              10.2.2.25       YES NVRAM  up                    up 
+Serial6/0              10.2.2.29       YES NVRAM  up                    up 
+FastEthernet7/0        172.16.106.1    YES manual up                    up 
+FastEthernet8/0        172.16.106.5    YES manual up                    up 
+FastEthernet9/0        unassigned      YES unset  up                    down
+
+1.5 Router-Chimoio
+Router-Chimoio#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.121.1    YES manual up                    up 
+FastEthernet0/0.20     172.16.122.1    YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  administratively down down 
+Serial2/0              10.2.2.22       YES manual up                    up 
+Serial3/0              unassigned      YES unset  administratively down down 
+FastEthernet4/0        unassigned      YES unset  administratively down down 
+FastEthernet5/0        unassigned      YES unset  administratively down down
+
+1.6 Router-Tete
+Router-Tete#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.131.1    YES manual up                    up 
+FastEthernet0/0.20     172.16.132.1    YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  up                    down 
+Serial2/0              10.2.2.26       YES manual up                    up 
+Serial3/0              unassigned      YES unset  down                  down 
+FastEthernet4/0        unassigned      YES unset  down                  down 
+FastEthernet5/0        unassigned      YES unset  down                  down
+
+1.7 Router-Quelimane
+Router-Quelimane#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.141.1    YES manual up                    up 
+FastEthernet0/0.20     172.16.142.1    YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  administratively down down 
+Serial2/0              10.2.2.30       YES manual up                    up 
+Serial3/0              unassigned      YES unset  administratively down down 
+FastEthernet4/0        unassigned      YES unset  administratively down down 
+
+1.8 Router-Nampula
+Router-Nampula#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.51.254   YES manual up                    up 
+FastEthernet0/0.20     172.16.52.254   YES manual up                    up 
+FastEthernet0/0.30     172.16.53.254   YES manual up                    up 
+FastEthernet0/0.40     172.16.54.254   YES manual up                    up 
+FastEthernet0/0.50     172.16.55.254   YES manual up                    up 
+FastEthernet1/0        172.16.50.1     YES manual up                    up 
+Serial2/0              10.2.2.6        YES manual up                    up 
+Serial3/0              10.2.2.9        YES manual up                    up 
+Serial4/0              10.2.2.37       YES manual up                    up 
+Serial5/0              10.2.2.33       YES manual up                    up 
+Serial6/0              unassigned      YES unset  administratively down down
+
+1.9 Router-Pemba
+Router-Pemba#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.81.1     YES manual up                    up 
+FastEthernet0/0.20     172.16.82.1     YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  administratively down down 
+Serial2/0              10.2.2.38       YES manual up                    up 
+Serial3/0              unassigned      YES unset  administratively down down 
+FastEthernet4/0        unassigned      YES unset  administratively down down 
+FastEthernet5/0        unassigned      YES unset  administratively down down
+
+1.10 Router-Lichinga
+Router-Lichinga#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/0        unassigned      YES unset  up                    up 
+FastEthernet0/0.10     172.16.91.1     YES manual up                    up 
+FastEthernet0/0.20     172.16.92.1     YES manual up                    up 
+FastEthernet1/0        unassigned      YES unset  administratively down down 
+Serial2/0              10.2.2.34       YES manual up                    up 
+Serial3/0              unassigned      YES unset  administratively down down 
+FastEthernet4/0        unassigned      YES unset  administratively down down 
+FastEthernet5/0        unassigned      YES unset  administratively down down
+
+
+2. Roteamento
+
+2.1 Router-Maputo
+Router-Maputo#show ip route
+     10.0.0.0/8 is variably subnetted, 5 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.2
+                    [1/0] via 10.2.2.9
+C       10.2.2.0/30 is directly connected, Serial3/0
+C       10.2.2.8/30 is directly connected, Serial2/0
+C       10.2.2.12/30 is directly connected, Serial5/0
+C       10.2.2.16/30 is directly connected, Serial4/0
+     172.16.0.0/16 is variably subnetted, 7 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.2
+                      [1/0] via 10.2.2.14
+                      [1/0] via 10.2.2.18
+                      [1/0] via 10.2.2.9
+C       172.16.150.0/24 is directly connected, FastEthernet1/0
+C       172.16.151.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.152.0/24 is directly connected, FastEthernet0/0.20
+C       172.16.153.0/24 is directly connected, FastEthernet0/0.30
+C       172.16.154.0/24 is directly connected, FastEthernet0/0.40
+C       172.16.155.0/24 is directly connected, FastEthernet0/0.50
+
+2.2 Router-Xai-xai
+10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.13
+C       10.2.2.12/30 is directly connected, Serial2/0
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.13
+C       172.16.81.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.82.0/24 is directly connected, FastEthernet0/0.20
+
+2.3 Router-Inhambane
+10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.17
+C       10.2.2.16/30 is directly connected, Serial2/0
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.17
+C       172.16.191.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.192.0/24 is directly connected, FastEthernet0/0.20
+
+2.4 Router-Beira
+10.0.0.0/8 is variably subnetted, 6 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.1
+                    [1/0] via 10.2.2.6
+C       10.2.2.0/30 is directly connected, Serial2/0
+C       10.2.2.4/30 is directly connected, Serial3/0
+C       10.2.2.20/30 is directly connected, Serial4/0
+C       10.2.2.24/30 is directly connected, Serial5/0
+C       10.2.2.28/30 is directly connected, Serial6/0
+     172.16.0.0/16 is variably subnetted, 9 subnets, 3 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.1
+                      [1/0] via 10.2.2.22
+                      [1/0] via 10.2.2.26
+                      [1/0] via 10.2.2.30
+                      [1/0] via 10.2.2.6
+C       172.16.100.0/30 is directly connected, FastEthernet1/0
+C       172.16.101.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.102.0/24 is directly connected, FastEthernet0/0.20
+C       172.16.103.0/24 is directly connected, FastEthernet0/0.30
+C       172.16.104.0/24 is directly connected, FastEthernet0/0.40
+C       172.16.105.0/24 is directly connected, FastEthernet0/0.50
+C       172.16.106.0/30 is directly connected, FastEthernet7/0
+C       172.16.106.4/30 is directly connected, FastEthernet8/0
+
+2.5. Router-Chimoio
+10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.21
+C       10.2.2.20/30 is directly connected, Serial2/0
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.21
+C       172.16.121.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.122.0/24 is directly connected, FastEthernet0/0.20
+
+2.6. Router-Tete
+10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.25
+C       10.2.2.24/30 is directly connected, Serial2/0
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.25
+C       172.16.131.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.132.0/24 is directly connected, FastEthernet0/0.20
+
+2.7. Router-Quelimane
+10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.29
+C       10.2.2.28/30 is directly connected, Serial2/0
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.29
+C       172.16.141.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.142.0/24 is directly connected, FastEthernet0/0.20
+
+2.8. Router-Nampula
+10.0.0.0/8 is variably subnetted, 5 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.5
+                    [1/0] via 10.2.2.10
+C       10.2.2.4/30 is directly connected, Serial2/0
+C       10.2.2.8/30 is directly connected, Serial3/0
+C       10.2.2.32/30 is directly connected, Serial5/0
+C       10.2.2.36/30 is directly connected, Serial4/0
+     172.16.0.0/16 is variably subnetted, 7 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.38
+                      [1/0] via 10.2.2.5
+                      [1/0] via 10.2.2.34
+                      [1/0] via 10.2.2.10
+C       172.16.50.0/24 is directly connected, FastEthernet1/0
+C       172.16.51.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.52.0/24 is directly connected, FastEthernet0/0.20
+C       172.16.53.0/24 is directly connected, FastEthernet0/0.30
+C       172.16.54.0/24 is directly connected, FastEthernet0/0.40
+C       172.16.55.0/24 is directly connected, FastEthernet0/0.50
+
+2.9. Router-Pemba
+10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.37
+C       10.2.2.36/30 is directly connected, Serial2/0
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.37
+C       172.16.81.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.82.0/24 is directly connected, FastEthernet0/0.20
+
+2.10. Router-Lichinga
+10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+S       10.2.2.0/26 [1/0] via 10.2.2.33
+C       10.2.2.32/30 is directly connected, Serial2/0
+     172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+S       172.16.0.0/16 [1/0] via 10.2.2.33
+C       172.16.91.0/24 is directly connected, FastEthernet0/0.10
+C       172.16.92.0/24 is directly connected, FastEthernet0/0.20
+
+
+3. VLANs
+
+3.1 Nos POPs
+Switch#show vlan brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Gig0/2
+10   Administracao                    active    Fa0/1, Fa0/2, Fa0/3, Fa0/4
+                                                Fa0/5
+20   Tecnico                          active    Fa0/6, Fa0/7, Fa0/8, Fa0/9
+                                                Fa0/10
+30   Servidores                       active    Fa0/11, Fa0/12, Fa0/13, Fa0/14
+                                                Fa0/15
+40   Producao                         active    Fa0/16, Fa0/17, Fa0/18, Fa0/19
+                                                Fa0/20
+50   Visitantes                       active    Fa0/21, Fa0/22, Fa0/23, Fa0/24
+1002 fddi-default                     active    
+1003 token-ring-default               active    
+1004 fddinet-default                  active    
+1005 trnet-default                    active    
+
+3.2 Nas restantes províncias
+Switch#show vlan brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa0/7, Fa0/8, Fa0/9, Fa0/10
+                                                Fa0/11, Fa0/12, Fa0/13, Fa0/14
+                                                Fa0/15, Fa0/16, Fa0/17, Fa0/18
+                                                Fa0/19, Fa0/20, Fa0/21, Fa0/22
+                                                Fa0/23, Fa0/24, Gig0/2
+10   Administracao                    active    Fa0/1, Fa0/2, Fa0/3
+20   Tecnico                          active    Fa0/4, Fa0/5, Fa0/6
+1002 fddi-default                     active    
+1003 token-ring-default               active    
+1004 fddinet-default                  active    
+1005 trnet-default                    active  
+
+
